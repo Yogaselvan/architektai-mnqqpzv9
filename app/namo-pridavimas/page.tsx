@@ -2,7 +2,7 @@
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
-import { Apie, Architektai, ArrowRight, Baigtas, Building2, Check, ChevronRight, Clock, Dirbame, Dokumentacija, El, FileCheck, Galutinis, Home, Individualus, Kiekvienas, Klasikinis, Kompleksiniai, Laiko, Lietuvoje, MB, Mail, MapPin, Moderni, Namo, NamoPridavimasPage, Nemokama, Nuo, Optimalu, Paslaugos, Patirtis, PenTool, Phone, Pilnas, Pridavimas, Profesionalios, Projektavimas, Ruler, Sklandus, Statyba, Statybos, Supratimas, Susisiekite, Telefono, Users, Vardas, Visoje, Visos, Vykdomas, XXXXX, YZ9Wyx0bjvt63wZg } from "lucide-react";
+import { ArrowRight, Building2, Check, Clock, FileCheck, Home, MapPin, PenTool, Ruler } from "lucide-react";
 
 export default function NamoPridavimasPage() {
   const containerRef = useRef<HTMLDivElement>(null);
