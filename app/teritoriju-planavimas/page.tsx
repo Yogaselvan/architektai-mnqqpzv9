@@ -1,4 +1,5 @@
 "use client";
+import { ChevronRight } from "lucide-react";
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
