@@ -187,7 +187,7 @@ export default function TeritorijuPlanavimas() {
                 </Card>
                 {i < 3 && (
                   <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2 z-10">
-                    <Icon name="ChevronRight" className="text-primary/50" size={24} />
+                    <ChevronRight className="w-5 h-5 text-primary/50" />
                   </div>
                 )}
               </div>
