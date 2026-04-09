@@ -51,7 +51,7 @@ export default function TeritorijuPlanavimas() {
                 size="lg"
                 className="font-semibold text-white"
                 style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}
-                endContent={<Icon name="ArrowRight" size={20} />}
+                endContent={→}
               >
                 Konsultuotis
               </Button>
@@ -130,7 +130,7 @@ export default function TeritorijuPlanavimas() {
                 <CardBody className="p-8">
                   <div className="flex items-center gap-4 mb-6">
                     <div className="w-14 h-14 rounded-xl flex items-center justify-center" style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}>
-                      <Icon name="Building2" className="text-white" size={24} />
+                      →
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-white">Konsultacija</h3>
@@ -143,7 +143,7 @@ export default function TeritorijuPlanavimas() {
                   <Button
                     className="w-full font-semibold text-white"
                     style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}
-                    endContent={<Icon name="ChevronRight" size={18} />}
+                    endContent={→}
                   >
                     Užsakyti konsultaciją
                   </Button>
@@ -237,11 +237,11 @@ export default function TeritorijuPlanavimas() {
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-default-400">
                   <span className="flex items-center gap-2">
-                    <Icon name="MapPin" size={16} className="text-primary" />
+                    →
                     Vilnius
                   </span>
                   <span className="flex items-center gap-2">
-                    <Icon name="Clock" size={16} className="text-primary" />
+                    →
                     2023 m.
                   </span>
                 </div>
@@ -273,11 +273,11 @@ export default function TeritorijuPlanavimas() {
                 </p>
                 <div className="flex flex-wrap gap-4 text-sm text-default-400">
                   <span className="flex items-center gap-2">
-                    <Icon name="MapPin" size={16} className="text-primary" />
+                    →
                     Kaunas
                   </span>
                   <span className="flex items-center gap-2">
-                    <Icon name="Clock" size={16} className="text-primary" />
+                    →
                     2024 m.
                   </span>
                 </div>
@@ -314,7 +314,7 @@ export default function TeritorijuPlanavimas() {
               >
                 <CardBody className="p-6">
                   <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4" style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}>
-                    <Icon name={feature.icon} className="text-white" size={20} />
+                    →
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">{feature.title}</h3>
                   <p className="text-default-500 text-sm">{feature.desc}</p>
@@ -339,15 +339,15 @@ export default function TeritorijuPlanavimas() {
               
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-default-400">
-                  <Icon name="MapPin" className="text-primary" size={20} />
+                  →
                   <span>Vilnius, Lietuva</span>
                 </div>
                 <div className="flex items-center gap-3 text-default-400">
-                  <Icon name="Phone" className="text-primary" size={20} />
+                  →
                   <span>+370 600 00000</span>
                 </div>
                 <div className="flex items-center gap-3 text-default-400">
-                  <Icon name="Mail" className="text-primary" size={20} />
+                  →
                   <span>info@architektai.lt</span>
                 </div>
               </div>
@@ -389,7 +389,7 @@ export default function TeritorijuPlanavimas() {
                     type="submit"
                     className="w-full font-semibold text-white"
                     style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}
-                    endContent={<Icon name="ArrowRight" size={18} />}
+                    endContent={→}
                   >
                     Siųsti užklausą
                   </Button>
