@@ -51,7 +51,7 @@ export default function TeritorijuPlanavimas() {
                 size="lg"
                 className="font-semibold text-white"
                 style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}
-                endContent={→}
+                endContent={"→"}
               >
                 Konsultuotis
               </Button>
@@ -143,7 +143,7 @@ export default function TeritorijuPlanavimas() {
                   <Button
                     className="w-full font-semibold text-white"
                     style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}
-                    endContent={→}
+                    endContent={"→"}
                   >
                     Užsakyti konsultaciją
                   </Button>
@@ -389,7 +389,7 @@ export default function TeritorijuPlanavimas() {
                     type="submit"
                     className="w-full font-semibold text-white"
                     style={{ background: "linear-gradient(135deg, #cac829, #545428)" }}
-                    endContent={→}
+                    endContent={"→"}
                   >
                     Siųsti užklausą
                   </Button>
