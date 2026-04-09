@@ -2,7 +2,7 @@
 import { Button, Input, Textarea } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
-import { ArrowRight, Mail } from "lucide-react";
+import { Aptarsime, Architektai, ArrowRight, Atsakome, El, Kiekvienas, Konsultacijos, KontaktaiPage, M3, M9, Mail, Nemokamos, Pasidalinkite, Spausdami, Susisiekite, Telefonas, Turite, Vardas, YKbN7wElv1h9Xgbj, YZ9Wyx0bjvt63wZg } from "lucide-react";
 
 export default function KontaktaiPage() {
   const containerRef = useRef<HTMLDivElement>(null);

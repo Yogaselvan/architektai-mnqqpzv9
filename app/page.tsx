@@ -2,7 +2,7 @@
 import { Button, Card, CardBody, Input, Textarea } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
-import { ArrowRight, Building2, Check, ChevronRight } from "lucide-react";
+import { Apie, Architektai, ArchitektaiHome, ArrowRight, Atspindintys, Biurai, Building2, Check, ChevronRight, Daugiafunkcinis, El, Energinio, Esame, Inovacijos, Interjero, Jaukios, Kaip, Kiekvienas, Komerci, Konsultacija, Konsultacijos, Kuriami, MB, Metodas, Moderni, Paslaugos, Portfolio, Profesionalios, Projektas, Projektavimas, Projektavimo, Projekto, Realizacija, Restoranas, Statybos, Susisiekite, Susisiekti, Sveikatos, Turite, Tvari, Unikali, Vardas, Visi, YBgyJ5ZQ8zTNxjRo, YKbN7wElv1h9Xgbj, YZ9Wyx0bjvt63wZg, Yyv2aQZL3rUa6ZJg, Yyv2eW77k0uw110b } from "lucide-react";
 
 const projects = [
   { id: 1, image: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=303,fit=crop/YZ9Wyx0bjvt63wZg/img-vksycsyf04gplwilb4dp7-m6LrzxJp5Lt10O17.png", title: "Šiuolaikinis biuras", description: "Minimalistinės biuro erdvės su atviro plano sprendimais" },

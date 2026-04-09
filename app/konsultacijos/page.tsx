@@ -2,7 +2,7 @@
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
-import { ArrowRight, Building2, Check, FileText, Ruler, Users } from "lucide-react";
+import { Apie, Architektai, ArrowRight, Baigtas, Building2, Check, Compass, Detali, Efektyvus, El, FileText, Grotesk, Individualus, Kaip, Kaune, Kiekviena, Kiekvienam, Konsultacijos, KonsultacijosPage, Kontaktai, Lanksti, Lietuvoje, MB, Moderni, Nepriklausomas, Nurodome, Nustatome, Padedame, Paslaugos, Pateikiame, Patirtis, Profesionalios, Ruler, Scale, Space, Statybos, Sujungiami, Suprantame, Susisiekti, Telefono, Users, Vardas, XX, XXX, YKbN7wElv1h9Xgbj, YZ9Wyx0bjvt63wZg } from "lucide-react";
 
 export default function KonsultacijosPage() {
   const containerRef = useRef<HTMLDivElement>(null);

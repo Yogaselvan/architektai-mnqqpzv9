@@ -2,7 +2,7 @@
 import { Button, Card, CardBody, CardHeader, CardFooter, Input, Textarea, Divider, Link, Chip } from "@heroui/react";
 import { useRef } from "react";
 import { useHeroAnimation, useScrollReveal, useMicroInteractions } from "@/hooks/useGsapAnimations";
-import { ArrowRight, Building2, Check, ChevronRight, Clock, Mail, MapPin, Phone, Users } from "lucide-react";
+import { Architektai, ArrowRight, Bar, Block, Bottom, Building2, Check, ChevronRight, Clock, Contact, Content, Derinimas, Detali, Detalus, Dirbame, El, Features, Footer, Gradient, Gyvenamosios, Hero, Icon, Individualus, Kaip, Kaunas, Kiekvienam, Kiekvienas, Konsultacija, Konsultuotis, Kuriami, Lietuva, Lietuvoje, MB, Mail, MapPin, Moderni, Nemokama, Patirtis, Phone, Planavimas, Planavimo, Portfolio, Process, Projektavimas, Projekte, Projekto, Section, Service, Stats, Susisiekite, Teikiame, Teritorijos, TeritorijuPlanavimas, Turite, Users, Vardas, Verslo, Vilnius, YZ9Wyx0bjvt63wZg, Yyv2aQZL3rUa6ZJg } from "lucide-react";
 
 export default function TeritorijuPlanavimas() {
   const containerRef = useRef<HTMLDivElement>(null);
